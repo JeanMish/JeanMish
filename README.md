@@ -1,4 +1,3 @@
-Je suis un caca boudin.
 Hey Lyndàh, ton spagath y'é po assez épicé. 
 
 <!---
