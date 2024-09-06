@@ -4,4 +4,13 @@ ncpa.cpl
 ouvrir propriété système
 sysdm.cpl
 
+Change ollama models's folder
+ouvrir propriété système
+dans variables d'environnement
+Variables système, nouvelle entrée
+Nom de la variable; OLLAMA_MELS
+Valeur de la variable; f:/chemin/du/dossier/des/modèkes/ //non testé avec les clé usb
+fermer ollama , attendre et ré-ouvrir ollama.
+il va créer le dossier lui-même si bien configurer.
+
 
