@@ -1,3 +1,20 @@
+sudo ss -tuln // active listening port
+find / -name 'messages'
+find -iname "*.tar.gz" -delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 http://127.0.0.1:11434/
 ss -tuln | grep 127.0.0.1
 
