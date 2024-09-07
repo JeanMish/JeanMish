@@ -10,21 +10,6 @@ ollama run
 
 
 
-installer nodejs https://nodejs.org/fr ou https://nodejs.org/fr/download/prebuilt-installer, browser fonctionne pas
-installer choco https://chocolatey.org/install
-installer docker sudo apt install docker.io , sudo service docker start, sudo usermod -aG docker $USER, docker --version
-maintenant sudo docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
-
-*************************************************************
-installer curl
-sudo curl -fsSL https://ollama.com/install.sh | sh
-a fonctionné du premier coup,
-refaire et essayer ça en premier
-***************************************************************
-
-installation WebUI
-
-docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
-docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
-docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
-
+installer ollama
+insraller docker
+installer open webui
