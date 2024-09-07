@@ -13,3 +13,10 @@ ollama
 installer ollama
 insraller docker
 installer open webui
+
+******************
+installation ollama sur debian
+sur ollama.com
+sudo curl -fsSL https://ollama.com/install.sh | sudo sh // attention le lien du site donne une erreur à cause du ~
+
+
