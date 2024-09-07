@@ -1,4 +1,5 @@
 sudo ss -tuln // active listening port
+sudo netstat -tuln
 find / -name 'messages'
 find -iname "*.tar.gz" -delete
 
