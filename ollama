@@ -9,6 +9,11 @@ ollama
 
 
 
+sudo rm -rf /usr/share/ollama/.ollama/models/*  // vider les models
+
+
+
+
 
 installer ollama
 insraller docker
