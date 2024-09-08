@@ -1,3 +1,5 @@
+su
+sudo usermod-aG sudo <user to sudo>
 sudo ss -tuln // active listening port
 sudo netstat -tuln
 find / -name 'messages'
