@@ -5,6 +5,8 @@ find -iname "*.tar.gz" -delete
 ls -alrt  /etc/apt/sources.list.d/ // La commande ls -alrt /etc/apt/sources.list.d/ est utilisée pour afficher une liste détaillée des fichiers présents dans le répertoire /etc/apt/sources.list.d/
 ip addr
 netstat -i
+chown USER:GROUP FILE
+
 
 
 
