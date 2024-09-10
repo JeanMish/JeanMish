@@ -19,9 +19,18 @@ installer ollama
 insraller docker
 installer open webui
 
-******************
-installation ollama sur debian
-sur ollama.com
-sudo curl -fsSL https://ollama.com/install.sh | sudo sh // attention le lien du site donne une erreur à cause du ~
 
-
+*****************************
+Mise à jour ollama par docker
+*****************************
+*****************
+Début mise à jour
+*****************
+sudo docker run =d \
+  --name ollama \
+  -p 11434:11434 \
+  -v ollama_volume:/root/.ollama \
+  ollama/ollama:latest
+***************
+Fin mise à jour
+***************
