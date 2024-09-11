@@ -20,6 +20,12 @@ insraller docker
 installer open webui
 
 
+
+
+
+***************************************
+Fin ouvrir myenv pour lancer ./webui.sh
+***************************************
 *****************************
 Mise à jour ollama par docker
 *****************************
