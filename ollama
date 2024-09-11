@@ -20,9 +20,10 @@ insraller docker
 installer open webui
 
 
-
-
-
+***************************************
+Ouvrir myenv avant de lancer ./webui.sh
+***************************************
+source myenv/bin/activate
 ***************************************
 Fin ouvrir myenv pour lancer ./webui.sh
 ***************************************
